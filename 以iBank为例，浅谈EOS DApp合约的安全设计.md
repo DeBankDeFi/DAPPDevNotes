@@ -18,7 +18,7 @@ EOS主网上线以来，DApp合约的安全问题一直为大家所诟病，层�
 
 #### 储蓄合约
 
-![iBank-Arch](https://raw.githubusercontent.com/Dappub/DAPPDevNotes/master/img/Deposit.png)
+![Deposit](https://raw.githubusercontent.com/Dappub/DAPPDevNotes/master/img/Deposit.png)
 
 储蓄合约在整个DApp中主要负责用户资金转入、转出以及利润的分配问题。这中间最重要的就是转入过程中，可能出现的假币、假通知等攻击方式对平台造成的损失。针对此类问题，我们完整的调研了整个EOS的转账机制，并针对转账过程中可能存在的所有风险点进行了预防和处理。
 
